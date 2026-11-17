@@ -14,9 +14,7 @@ config*.toml
 output/*
 !output/dataset/
 output/dataset/*
-!output/dataset/manifest.json
-!output/dataset/users.json
-!output/dataset/repositories.json
-!output/dataset/days/
-output/dataset/days/*
-!output/dataset/days/????-??-??.json
+!output/dataset/index.json
+!output/dataset/months/
+output/dataset/months/*
+!output/dataset/months/????-??.json.gz

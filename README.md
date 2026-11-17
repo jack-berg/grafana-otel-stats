@@ -1,6 +1,6 @@
 # Grafana OpenTelemetry contributions
 
-Public JSON data for reporting tools: [manifest](output/dataset/manifest.json), [daily records](output/dataset/days/), [schema](SCHEMA.md).
+Public JSON data for reporting tools: [index](output/dataset/index.json), [monthly files](output/dataset/months/), [schema](SCHEMA.md).
 
 ## Consume
 
@@ -10,7 +10,7 @@ Clone this repository or fetch files from:
 https://raw.githubusercontent.com/OWNER/REPO/REF/output/dataset/
 ```
 
-Read `manifest.json` for the schema version and UTC `[start,end)` range, then `days/YYYY-MM-DD.json` for each day. Rows include usernames, repository names, contribution counts, and roles. Use a commit SHA as `REF` for a consistent snapshot.
+Fetch `index.json` for people, roles, repositories, and available months. Fetch only monthly files whose UTC `[start,end)` interval overlaps the requested range. Each `months/YYYY-MM.json.gz` decompresses to an array of user-day records with readable usernames and repository names. In the browser, decompress with `DecompressionStream('gzip')` or a gzip library before parsing JSON. Use a commit SHA as `REF` for a consistent snapshot.
 
 ## Update
 

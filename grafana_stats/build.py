@@ -3,10 +3,12 @@ from collections import Counter, defaultdict
 from contextlib import closing
 from datetime import datetime, timedelta, timezone
 import fcntl
+import gzip
 import hashlib
 import json
 import os
 from pathlib import Path
+import re
 import shutil
 import sqlite3
 from tempfile import TemporaryDirectory
@@ -34,6 +36,16 @@ WHEN 'review_comment' THEN 'review_comments' ELSE 'unclassified_comments' END FR
 def write_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(value, indent=2, ensure_ascii=False) + "\n")
+
+
+def write_month(root, month, rows, start, end):
+    path = root / "months" / (month + ".json.gz")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("wb") as output:
+        with gzip.GzipFile(filename="", mode="wb", fileobj=output, mtime=0) as stream:
+            stream.write((json.dumps(rows, indent=2, ensure_ascii=False) + "\n").encode("utf-8"))
+    return {"month": month, "file": path.relative_to(root).as_posix(), "start": max(start, month + "-01"),
+            "end": end, "user_days": len(rows), "sha256": hashlib.sha256(path.read_bytes()).hexdigest()}
 
 
 def role_snapshots(db, intervals):
@@ -93,14 +105,20 @@ def validate_output(output):
         raise ValueError("Output cannot be a symbolic link")
     if not output.exists():
         return
-    manifest = output / "manifest.json"
-    if manifest.is_symlink() or not manifest.is_file() or json.loads(manifest.read_text()).get("format") != FORMAT:
+    legacy = not (output / "index.json").exists()
+    descriptor = output / ("manifest.json" if legacy else "index.json")
+    if descriptor.is_symlink() or not descriptor.is_file() or json.loads(descriptor.read_text()).get("format") != FORMAT:
         raise ValueError("Existing output is not an intermediate dataset; refusing to replace it")
     for path in output.rglob("*"):
         relative = path.relative_to(output)
-        allowed = path.is_dir() and relative.parts == ("days",) or path.is_file() and (
-            len(relative.parts) == 1 and path.name in {"manifest.json", "users.json", "repositories.json"}
-            or len(relative.parts) == 2 and relative.parts[0] == "days" and path.suffix == ".json" and len(path.stem) == 10)
+        if legacy:
+            allowed = path.is_dir() and relative.parts == ("days",) or path.is_file() and (
+                len(relative.parts) == 1 and path.name in {"manifest.json", "users.json", "repositories.json"}
+                or len(relative.parts) == 2 and relative.parts[0] == "days" and path.suffix == ".json" and len(path.stem) == 10)
+        else:
+            allowed = path.is_dir() and relative.parts == ("months",) or path.is_file() and (
+                relative.parts == ("index.json",) or len(relative.parts) == 2 and relative.parts[0] == "months"
+                and re.fullmatch(r"\d{4}-(0[1-9]|1[0-2])\.json\.gz", path.name))
         if path.is_symlink() or not allowed:
             raise ValueError("Output contains unexpected files; refusing to replace it")
 
@@ -195,8 +213,13 @@ def build(source, output, affiliation_file=None, start=None, end=None, company="
                 staging = Path(staging_directory) / "dataset"
                 staging.mkdir()
                 row_count, active_days, role_days, unknown_role_days, assumed_role_days = 0, 0, 0, 0, 0
-                role_users = set()
+                role_users, role_catalog = set(), set()
+                months, month_rows, current_month = [], [], None
                 for day_index, day in enumerate(period):
+                    if current_month and current_month != day[:7]:
+                        months.append(write_month(staging, current_month, month_rows, start, day))
+                        month_rows = []
+                    current_month = day[:7]
                     if progress and day_index % 100 == 0:
                         progress(f"writing user-days: {day_index}/{len(period)} UTC days")
                     snapshot, roles_status = roles_at(snapshots, snapshot_days, day)
@@ -222,16 +245,20 @@ def build(source, output, affiliation_file=None, start=None, end=None, company="
                         assumed_role_days += roles_status == "assumed"
                         if roles:
                             role_users.add(uid)
+                            role_catalog.update((item["role"], item["team_id"], item["team"]) for item in roles)
                         rows.append({"login": users[uid]["login"], "user_id": uid, "day": day, "roles": roles,
                                      "roles_status": roles_status,
                                      "roles_observed_at": snapshot["observed_at"] if snapshot else None,
                                      "activity_status": status, "counts": totals, "repositories": contributions})
                         row_count += 1
                         active_days += bool(contributions)
-                    write_json(staging / "days" / (day + ".json"), rows)
-                write_json(staging / "users.json", [users[uid] for uid in sorted(users)])
-                write_json(staging / "repositories.json", [repositories[rid] for rid in sorted(repositories)])
-                manifest = {"format": FORMAT, "schema_version": 3, "generated_at": now(), "company": company,
+                    month_rows.extend(rows)
+                months.append(write_month(staging, current_month, month_rows, start, end))
+                manifest = {"format": FORMAT, "schema_version": 4, "generated_at": now(), "company": company,
+                            "months": months,
+                            "people": [users[uid] for uid in sorted(users)],
+                            "roles": [{"role": value, "team_id": tid, "team": team} for value, tid, team in sorted(role_catalog)],
+                            "repositories": [repositories[rid] for rid in sorted(repositories)],
                             "range": {"start": start, "end": end}, "users": len(users), "user_days": row_count,
                             "observed_active_user_days": active_days, "source_observed_at": latest,
                             "source_snapshot": {"envelopes": count, "file_list_fingerprint": digest.hexdigest()},
@@ -254,7 +281,7 @@ def build(source, output, affiliation_file=None, start=None, end=None, company="
                                             "Private affiliations are attribution inputs, not verified employment history. No affiliation roster or intervals are exported.",
                                             "Raw-file and progress snapshots are read separately while collection may continue. File-list fingerprints are not content authenticity proofs.",
                                             "Rebuilds replace the whole selected interval, including retractions and earlier first-review dates."]}
-                write_json(staging / "manifest.json", manifest)
+                write_json(staging / "index.json", manifest)
                 publish(staging, output)
             if progress:
                 progress(f"built {row_count} user-days for {len(users)} qualifying users")

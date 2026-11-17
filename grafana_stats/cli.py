@@ -9,7 +9,7 @@ from .build import build
 
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(description="Build Grafana's user-day intermediate JSON dataset offline")
+    parser = argparse.ArgumentParser(description="Build Grafana's monthly gzipped user-day JSON dataset offline")
     parser.add_argument("--source", type=Path, required=True, help="Read-only github-otel-stats data directory")
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--affiliations", type=Path, help="Private affiliation JSON, defaults to SOURCE/affiliations.json")

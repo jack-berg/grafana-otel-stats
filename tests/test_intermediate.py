@@ -82,8 +82,16 @@ class IntermediateTest(unittest.TestCase):
     def run_build(self, **kwargs):
         return build(self.source, self.output, start="2024-01-01", end="2024-01-05", **kwargs)
 
+    def month_rows(self, month):
+        with gzip.open(self.output / "months" / (month + ".json.gz"), "rt", encoding="utf-8") as stream:
+            return json.load(stream)
+
     def rows(self, day):
-        return {row["user_id"]: row for row in json.loads((self.output / "days" / (day + ".json")).read_text())}
+        return {row["user_id"]: row for row in self.month_rows(day[:7]) if row["day"] == day}
+
+    def exported_text(self):
+        index = (self.output / "index.json").read_text()
+        return index + "".join(json.dumps(self.month_rows(path.name[:7])) for path in (self.output / "months").iterdir())
 
     def hashes(self, directory):
         return {str(p.relative_to(directory)): hashlib.sha256(p.read_bytes()).hexdigest() for p in directory.rglob("*") if p.is_file()}
@@ -116,13 +124,15 @@ class IntermediateTest(unittest.TestCase):
         self.assertEqual(targets, {10})
         self.assertEqual(jan2["repositories"][0]["targets"]["unclassified_comments"], [999])
         self.assertTrue(all("events" not in repo for row in (jan3, jan4) for repo in row["repositories"]))
-        self.assertEqual(manifest["schema_version"], 3)
-        self.assertEqual({p.name for p in self.output.iterdir()}, {"manifest.json", "users.json", "repositories.json", "days"})
+        self.assertEqual(manifest["schema_version"], 4)
+        self.assertEqual({p.name for p in self.output.iterdir()}, {"index.json", "months"})
         self.assertEqual(set(jan3["roles"][0]), {"role", "team_id", "team"})
-        self.assertEqual(set(json.loads((self.output / "repositories.json").read_text())[0]), {"id", "name", "archived"})
+        self.assertEqual(set(manifest["repositories"][0]), {"id", "name", "archived"})
+        self.assertEqual(manifest["roles"], [{"role": "approver", "team_id": "7", "team": "java-approvers"},
+                                             {"role": "technical_committee", "team_id": "8", "team": "technical-committee"}])
         self.assertEqual(manifest["role_summary"], {"first_observed_day": "2024-01-03", "users_with_roles": 2,
                                                    "user_days_with_roles": 6, "unknown_user_days": 0, "assumed_user_days": 3})
-        exported = "".join(p.read_text() for p in self.output.rglob("*.json"))
+        exported = self.exported_text()
         for private in ("PRIVATE_ROSTER_ONLY", "PRIVATE_BODY_SENTINEL", "OUTSIDE_COMPANY", "affiliations.json", "RV_1", "PENDING", str(self.source)):
             self.assertNotIn(private, exported)
 
@@ -147,7 +157,7 @@ class IntermediateTest(unittest.TestCase):
             if json.loads(path.read_text())["kind"] == "snapshot":
                 path.unlink()
         manifest = self.run_build()
-        self.assertEqual({user["id"] for user in json.loads((self.output / "users.json").read_text())}, {"U_1"})
+        self.assertEqual({user["id"] for user in manifest["people"]}, {"U_1"})
         self.assertEqual(self.rows("2024-01-02")["U_1"]["roles"], [])
         self.assertEqual(self.rows("2024-01-02")["U_1"]["roles_status"], "unknown")
         self.assertIsNone(self.rows("2024-01-02")["U_1"]["roles_observed_at"])
@@ -174,7 +184,7 @@ class IntermediateTest(unittest.TestCase):
     def test_private_repository_metadata_is_not_exported(self):
         self.save("repos", [{"node_id": "PRIVATE", "full_name": "PRIVATE_REPOSITORY", "archived": False, "private": True}])
         self.run_build()
-        self.assertNotIn("PRIVATE_REPOSITORY", "".join(path.read_text() for path in self.output.rglob("*.json")))
+        self.assertNotIn("PRIVATE_REPOSITORY", self.exported_text())
 
     def test_earlier_history_retracts_first_review_and_replaces_stale_days(self):
         self.reviews([("RV_EXTRA", "2024-01-03T11:00:00Z")], more=True)
@@ -185,11 +195,62 @@ class IntermediateTest(unittest.TestCase):
         self.assertEqual(self.rows("2024-01-03")["U_1"]["counts"]["first_reviews"], 0)
         self.assertEqual(self.rows("2024-01-03")["U_1"]["counts"]["reviews_submitted"], 2)
         build(self.source, self.output, start="2024-01-03", end="2024-01-04")
-        self.assertEqual([p.name for p in (self.output / "days").iterdir()], ["2024-01-03.json"])
+        self.assertEqual([p.name for p in (self.output / "months").iterdir()], ["2024-01.json.gz"])
+        self.assertEqual({row["day"] for row in self.month_rows("2024-01")}, {"2024-01-03"})
+
+    def test_month_boundaries_deterministic_compression_and_stale_month_removal(self):
+        index = build(self.source, self.output, start="2023-12-31", end="2024-03-02")
+        self.assertEqual([(item["month"], item["start"], item["end"]) for item in index["months"]], [
+            ("2023-12", "2023-12-31", "2024-01-01"), ("2024-01", "2024-01-01", "2024-02-01"),
+            ("2024-02", "2024-02-01", "2024-03-01"), ("2024-03", "2024-03-01", "2024-03-02")])
+        keys = []
+        for item in index["months"]:
+            payload = (self.output / item["file"]).read_bytes()
+            self.assertEqual(hashlib.sha256(payload).hexdigest(), item["sha256"])
+            self.assertEqual(payload[4:8], b"\x00\x00\x00\x00")
+            rows = json.loads(gzip.decompress(payload))
+            self.assertEqual(len(rows), item["user_days"])
+            self.assertEqual(sum(row["user_id"] == "U_3" for row in rows), (datetime.fromisoformat(item["end"]) - datetime.fromisoformat(item["start"])).days)
+            self.assertTrue(all(item["start"] <= row["day"] < item["end"] for row in rows))
+            order = [(row["day"], row["login"].casefold(), row["user_id"]) for row in rows]
+            self.assertEqual(order, sorted(order))
+            keys.extend((row["day"], row["user_id"]) for row in rows)
+        self.assertEqual(len(keys), index["user_days"])
+        self.assertEqual(len(keys), len(set(keys)))
+        self.assertIn(("2024-02-29", "U_3"), keys)
+        before = self.hashes(self.output / "months")
+        rebuilt = build(self.source, self.output, start="2023-12-31", end="2024-03-02")
+        self.assertEqual(index["months"], rebuilt["months"])
+        self.assertEqual(before, self.hashes(self.output / "months"))
+        build(self.source, self.output, start="2024-01-01", end="2024-01-02")
+        self.assertEqual({p.name for p in (self.output / "months").iterdir()}, {"2024-01.json.gz"})
+        self.assertEqual({row["day"] for row in self.month_rows("2024-01")}, {"2024-01-01"})
+
+    def test_daily_export_migrates_without_overwriting_unknown_files(self):
+        self.output.mkdir()
+        (self.output / "manifest.json").write_text(json.dumps({"format": "grafana-otel-user-days", "schema_version": 3}))
+        for name in ("users.json", "repositories.json"):
+            (self.output / name).write_text("[]")
+        (self.output / "days").mkdir()
+        (self.output / "days/2024-01-01.json").write_text("[]")
+        unknown = self.output / "keep.txt"
+        unknown.write_text("user work")
+        with self.assertRaisesRegex(ValueError, "unexpected files"):
+            self.run_build()
+        self.assertEqual(unknown.read_text(), "user work")
+        unknown.unlink()
+        index = self.run_build()
+        self.assertEqual(index["schema_version"], 4)
+        self.assertEqual({p.name for p in self.output.iterdir()}, {"index.json", "months"})
+        self.assertEqual(len(self.month_rows("2024-01")), index["user_days"])
 
     def test_failure_preserves_existing_output_and_rejects_unknown_files(self):
         self.run_build()
         before = self.hashes(self.output)
+        with patch("grafana_stats.build.gzip.GzipFile", side_effect=OSError("Disk full")):
+            with self.assertRaises(OSError):
+                self.run_build()
+        self.assertEqual(before, self.hashes(self.output))
         path = self.source / "raw/2024-01-05/broken.json"
         path.write_text("{")
         with self.assertRaises(ValueError):
@@ -205,7 +266,8 @@ class IntermediateTest(unittest.TestCase):
         self.save("teams", [{"id": 9, "slug": "java-maintainers", "parent": None}], "snapshot/pending/teams")
         self.save("team_members", [self.bob], "snapshot/pending/team/9", "9")
         self.run_build()
-        self.assertNotIn("U_2", {user["id"] for user in json.loads((self.output / "users.json").read_text())})
+        index = json.loads((self.output / "index.json").read_text())
+        self.assertNotIn("U_2", {user["id"] for user in index["people"]})
         with self.assertRaisesRegex(ValueError, "non-nested"):
             build(self.source, self.source / "output")
         data = json.loads((self.source / "affiliations.json").read_text())
