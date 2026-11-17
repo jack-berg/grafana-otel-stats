@@ -1,0 +1,2835 @@
+[
+  {
+    "login": "aknuds1",
+    "user_id": "MDQ6VXNlcjI4MTMwMw==",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 1,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry-collector-contrib",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkxOTY0MTQ5MzM=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 1,
+          "reviews_submitted": 0,
+          "first_reviews": 0,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {}
+      }
+    ]
+  },
+  {
+    "login": "alemferreira",
+    "user_id": "MDQ6VXNlcjEzODA1MDc4",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "amy-super",
+    "user_id": "MDQ6VXNlcjg3NDk5MjE5",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "11022070",
+        "team": "sig-contributor-experience-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11022061",
+        "team": "sig-contributor-experience-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "17666267",
+        "team": "sig-contributor-experience-triagers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "AndrejKiri",
+    "user_id": "MDQ6VXNlcjQxMjYxNzE=",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "11018578",
+        "team": "sig-end-user-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "18158026",
+        "team": "sig-end-user-blueprints-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11018579",
+        "team": "sig-end-user-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018576",
+        "team": "sig-end-user-triagers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "aranhave",
+    "user_id": "U_kgDOEM2EMA",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "11018795",
+        "team": "android-approvers"
+      },
+      {
+        "role": "triager",
+        "team_id": "14034936",
+        "team": "android-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018552",
+        "team": "swift-approvers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11022086",
+        "team": "swift-triagers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 1,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 1,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry-swift",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkyNDE1NTg3MTM=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 1,
+          "reviews_submitted": 0,
+          "first_reviews": 0,
+          "issue_comments": 0,
+          "pr_comments": 1,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "pr_comments": [
+            1276
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "login": "ArthurSens",
+    "user_id": "MDQ6VXNlcjI0MTkzNzY0",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "11018776",
+        "team": "collector-contrib-approvers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018771",
+        "team": "collector-contrib-triagers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018768",
+        "team": "collector-triagers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 2,
+      "first_reviews": 2,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry-specification",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkxODQ0NjM4OTE=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 1,
+          "first_reviews": 1,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "reviews_submitted": [
+            5408
+          ]
+        }
+      },
+      {
+        "repository": "open-telemetry/opentelemetry-collector-contrib",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkxOTY0MTQ5MzM=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 1,
+          "first_reviews": 1,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "reviews_submitted": [
+            52880
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "login": "benjoseph-grafana",
+    "user_id": "U_kgDOENNeLA",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "11018795",
+        "team": "android-approvers"
+      },
+      {
+        "role": "triager",
+        "team_id": "14034936",
+        "team": "android-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018552",
+        "team": "swift-approvers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11022086",
+        "team": "swift-triagers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 1,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry-collector-contrib",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkxOTY0MTQ5MzM=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 1,
+          "reviews_submitted": 0,
+          "first_reviews": 0,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {}
+      }
+    ]
+  },
+  {
+    "login": "codeboten",
+    "user_id": "MDQ6VXNlcjIyMzU2NQ==",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "11018782",
+        "team": "collector-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018776",
+        "team": "collector-contrib-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11018781",
+        "team": "collector-contrib-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018771",
+        "team": "collector-contrib-triagers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11018789",
+        "team": "collector-maintainers"
+      },
+      {
+        "role": "approver",
+        "team_id": "12005315",
+        "team": "collector-releases-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "13716864",
+        "team": "collector-releases-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018768",
+        "team": "collector-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11022134",
+        "team": "configuration-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11018767",
+        "team": "configuration-maintainers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11276870",
+        "team": "docs-fr-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11276873",
+        "team": "docs-fr-maintainers"
+      },
+      {
+        "role": "approver",
+        "team_id": "13893301",
+        "team": "proto-approvers"
+      },
+      {
+        "role": "triager",
+        "team_id": "13893299",
+        "team": "proto-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "18187670",
+        "team": "shared-workflows-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "14080559",
+        "team": "specs-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "14080560",
+        "team": "specs-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018557",
+        "team": "specs-triagers"
+      },
+      {
+        "role": "technical_committee",
+        "team_id": "13893907",
+        "team": "technical-committee"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 7,
+      "prs_merged": 9,
+      "reviews_submitted": 48,
+      "first_reviews": 45,
+      "issue_comments": 0,
+      "pr_comments": 7,
+      "review_comments": 3,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry-collector-releases",
+        "repository_id": "MDEwOlJlcG9zaXRvcnk0MDAyNTM2NzY=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 0,
+          "first_reviews": 0,
+          "issue_comments": 0,
+          "pr_comments": 1,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "pr_comments": [
+            1757
+          ]
+        }
+      },
+      {
+        "repository": "open-telemetry/opentelemetry-collector",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkxODU4NjExNzM=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 4,
+          "prs_merged": 3,
+          "reviews_submitted": 10,
+          "first_reviews": 10,
+          "issue_comments": 0,
+          "pr_comments": 1,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "reviews_submitted": [
+            16339,
+            16340,
+            16341,
+            16342,
+            16343,
+            16344,
+            16345,
+            16373,
+            16375,
+            16381
+          ],
+          "pr_comments": [
+            16345
+          ]
+        }
+      },
+      {
+        "repository": "open-telemetry/opentelemetry-collector-contrib",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkxOTY0MTQ5MzM=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 3,
+          "prs_merged": 6,
+          "reviews_submitted": 37,
+          "first_reviews": 34,
+          "issue_comments": 0,
+          "pr_comments": 5,
+          "review_comments": 3,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "reviews_submitted": [
+            49119,
+            50981,
+            52022,
+            52416,
+            52795,
+            52857,
+            52899,
+            52909,
+            52910,
+            52911,
+            52912,
+            52913,
+            52915,
+            52916,
+            52917,
+            52918,
+            52919,
+            52920,
+            52921,
+            52927,
+            52929,
+            52931,
+            52933,
+            52934,
+            52935,
+            52947,
+            52949,
+            52950,
+            52951,
+            52956,
+            52971,
+            52985,
+            52987,
+            52990,
+            52991
+          ],
+          "review_comments": [
+            52921,
+            52985
+          ],
+          "pr_comments": [
+            52688,
+            52842,
+            52843,
+            52844,
+            52846
+          ]
+        }
+      },
+      {
+        "repository": "open-telemetry/build-tools",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkyODM1NjEwMjk=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 1,
+          "first_reviews": 1,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "reviews_submitted": [
+            522
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "login": "colinedwardwood",
+    "user_id": "MDQ6VXNlcjIxNDU0NDY=",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "csmarchbanks",
+    "user_id": "MDQ6VXNlcjMyODA0NzI=",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 1,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry-collector-contrib",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkxOTY0MTQ5MzM=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 1,
+          "reviews_submitted": 0,
+          "first_reviews": 0,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {}
+      }
+    ]
+  },
+  {
+    "login": "dehaansa",
+    "user_id": "MDQ6VXNlcjU2MzU1OA==",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "11018776",
+        "team": "collector-contrib-approvers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018771",
+        "team": "collector-contrib-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "12005315",
+        "team": "collector-releases-approvers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "domasx2",
+    "user_id": "MDQ6VXNlcjg0NzY4NA==",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "francoposa",
+    "user_id": "MDQ6VXNlcjEzMDA2ODY5",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "grcevski",
+    "user_id": "MDQ6VXNlcjYyMDc3Nzc=",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "12803279",
+        "team": "ebpf-instrumentation-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "12803283",
+        "team": "ebpf-instrumentation-maintainers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018708",
+        "team": "go-instrumentation-approvers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018704",
+        "team": "go-instrumentation-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "13154323",
+        "team": "injector-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "13154324",
+        "team": "injector-maintainers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 1,
+      "prs_merged": 1,
+      "reviews_submitted": 5,
+      "first_reviews": 4,
+      "issue_comments": 0,
+      "pr_comments": 1,
+      "review_comments": 1,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry-ebpf-instrumentation",
+        "repository_id": "R_kgDOOa4Yng",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 1,
+          "prs_merged": 1,
+          "reviews_submitted": 4,
+          "first_reviews": 3,
+          "issue_comments": 0,
+          "pr_comments": 1,
+          "review_comments": 1,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "review_comments": [
+            4179
+          ],
+          "reviews_submitted": [
+            4179,
+            4214,
+            4215,
+            4217
+          ],
+          "pr_comments": [
+            4214
+          ]
+        }
+      },
+      {
+        "repository": "open-telemetry/opentelemetry-injector",
+        "repository_id": "R_kgDOOy2pyA",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 1,
+          "first_reviews": 1,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "reviews_submitted": [
+            459
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "login": "immavalls",
+    "user_id": "MDQ6VXNlcjQ3ODg2MzQ=",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "11022083",
+        "team": "docs-es-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11022084",
+        "team": "docs-es-maintainers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "jack-berg",
+    "user_id": "MDQ6VXNlcjM0NDE4NjM4",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "11022134",
+        "team": "configuration-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11018767",
+        "team": "configuration-maintainers"
+      },
+      {
+        "role": "approver",
+        "team_id": "13154323",
+        "team": "injector-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "13154324",
+        "team": "injector-maintainers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018688",
+        "team": "java-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "13660236",
+        "team": "java-contrib-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "13660240",
+        "team": "java-contrib-maintainers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018680",
+        "team": "java-instrumentation-approvers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018673",
+        "team": "java-instrumentation-triagers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11018689",
+        "team": "java-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018671",
+        "team": "java-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "13893301",
+        "team": "proto-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "13893909",
+        "team": "proto-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "13893299",
+        "team": "proto-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018593",
+        "team": "semconv-db-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018589",
+        "team": "semconv-jvm-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "14080559",
+        "team": "specs-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "14080560",
+        "team": "specs-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018557",
+        "team": "specs-triagers"
+      },
+      {
+        "role": "technical_committee",
+        "team_id": "13893907",
+        "team": "technical-committee"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 1,
+      "first_reviews": 1,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry-specification",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkxODQ0NjM4OTE=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 1,
+          "first_reviews": 1,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "reviews_submitted": [
+            5356
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "login": "jaydeluca",
+    "user_id": "MDQ6VXNlcjc2MzA2OTY=",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "11018745",
+        "team": "docs-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11018746",
+        "team": "docs-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "13198646",
+        "team": "docs-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "15222017",
+        "team": "ecosystem-explorer-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "15222019",
+        "team": "ecosystem-explorer-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "20472287",
+        "team": "ecosystem-explorer-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018688",
+        "team": "java-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "13660236",
+        "team": "java-contrib-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "13660240",
+        "team": "java-contrib-maintainers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018680",
+        "team": "java-instrumentation-approvers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018673",
+        "team": "java-instrumentation-triagers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018671",
+        "team": "java-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "18856208",
+        "team": "semconv-conformance-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "18856212",
+        "team": "semconv-conformance-maintainers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 5,
+      "first_reviews": 5,
+      "issue_comments": 0,
+      "pr_comments": 1,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry.io",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkxODQxMjY3NDg=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 3,
+          "first_reviews": 3,
+          "issue_comments": 0,
+          "pr_comments": 1,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "reviews_submitted": [
+            12582,
+            12623,
+            12634
+          ],
+          "pr_comments": [
+            12623
+          ]
+        }
+      },
+      {
+        "repository": "open-telemetry/opentelemetry-java-contrib",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkyODgyOTQ2NDg=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 1,
+          "first_reviews": 1,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "reviews_submitted": [
+            3218
+          ]
+        }
+      },
+      {
+        "repository": "open-telemetry/opentelemetry-ecosystem-explorer",
+        "repository_id": "R_kgDOQ-YRaQ",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 1,
+          "first_reviews": 1,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "reviews_submitted": [
+            1410
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "login": "jcreixell",
+    "user_id": "MDQ6VXNlcjExOTM4MDI=",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "korniltsev-grafanista",
+    "user_id": "U_kgDODa0vMQ",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "krajorama",
+    "user_id": "MDQ6VXNlcjEzNDM1ODkz",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "triager",
+        "team_id": "11018771",
+        "team": "collector-contrib-triagers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 1,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 1,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry-collector-contrib",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkxOTY0MTQ5MzM=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 1,
+          "reviews_submitted": 0,
+          "first_reviews": 0,
+          "issue_comments": 0,
+          "pr_comments": 1,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "pr_comments": [
+            52880
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "login": "LisaHJung",
+    "user_id": "MDQ6VXNlcjYwOTgwOTMz",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 2,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry.io",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkxODQxMjY3NDg=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 0,
+          "first_reviews": 0,
+          "issue_comments": 2,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "issue_comments": [
+            10791,
+            10792
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "login": "mapno",
+    "user_id": "MDQ6VXNlcjM5NTMyNzE0",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "mar4uk",
+    "user_id": "MDQ6VXNlcjIyNjYyMDY=",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "marctc",
+    "user_id": "MDQ6VXNlcjI4MDE5Mw==",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "12803279",
+        "team": "ebpf-instrumentation-approvers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 2,
+      "first_reviews": 2,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 1,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry-ebpf-instrumentation",
+        "repository_id": "R_kgDOOa4Yng",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 2,
+          "first_reviews": 2,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 1,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "reviews_submitted": [
+            4172,
+            4181
+          ],
+          "review_comments": [
+            4172
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "login": "mariomac",
+    "user_id": "MDQ6VXNlcjkzOTU1MA==",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "12803279",
+        "team": "ebpf-instrumentation-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "12803283",
+        "team": "ebpf-instrumentation-maintainers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "martincostello",
+    "user_id": "MDQ6VXNlcjE0MzkzNDE=",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "18227053",
+        "team": "benchmarks-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "18227058",
+        "team": "benchmarks-maintainers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018734",
+        "team": "dotnet-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018731",
+        "team": "dotnet-contrib-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11018733",
+        "team": "dotnet-contrib-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018729",
+        "team": "dotnet-contrib-triagers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11018736",
+        "team": "dotnet-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018720",
+        "team": "dotnet-triagers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 4,
+      "prs_merged": 8,
+      "reviews_submitted": 8,
+      "first_reviews": 6,
+      "issue_comments": 0,
+      "pr_comments": 3,
+      "review_comments": 9,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry-dotnet",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkxODU0NzgwNTk=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 3,
+          "prs_merged": 6,
+          "reviews_submitted": 3,
+          "first_reviews": 2,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 5,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "review_comments": [
+            8101,
+            8102
+          ],
+          "reviews_submitted": [
+            8101,
+            8102
+          ]
+        }
+      },
+      {
+        "repository": "open-telemetry/opentelemetry-dotnet-contrib",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkyNjE1NzM1NTU=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 1,
+          "prs_merged": 2,
+          "reviews_submitted": 5,
+          "first_reviews": 4,
+          "issue_comments": 0,
+          "pr_comments": 3,
+          "review_comments": 4,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "review_comments": [
+            5862,
+            5948
+          ],
+          "reviews_submitted": [
+            5862,
+            5948,
+            5952,
+            5953,
+            5954
+          ],
+          "pr_comments": [
+            3867,
+            5832,
+            5951
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "login": "martinkuba",
+    "user_id": "MDQ6VXNlcjQ5MzMxNDc=",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "14145589",
+        "team": "browser-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "14145590",
+        "team": "browser-maintainers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018668",
+        "team": "javascript-approvers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11642879",
+        "team": "javascript-contrib-triagers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018665",
+        "team": "javascript-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "12739816",
+        "team": "semconv-browser-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "12793752",
+        "team": "semconv-client-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "19184847",
+        "team": "semconv-client-side-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "19184851",
+        "team": "semconv-client-side-maintainers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 3,
+      "first_reviews": 2,
+      "issue_comments": 2,
+      "pr_comments": 0,
+      "review_comments": 1,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry-js-contrib",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkyNTU5ODY2NTk=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 2,
+          "first_reviews": 1,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 1,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "review_comments": [
+            3877
+          ],
+          "reviews_submitted": [
+            3877
+          ]
+        }
+      },
+      {
+        "repository": "open-telemetry/opentelemetry-browser",
+        "repository_id": "R_kgDOPtwFMw",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 1,
+          "first_reviews": 1,
+          "issue_comments": 2,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "issue_comments": [
+            493,
+            501
+          ],
+          "reviews_submitted": [
+            560
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "login": "maryliag",
+    "user_id": "MDQ6VXNlcjEwMTc0ODY=",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "11018745",
+        "team": "docs-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11018746",
+        "team": "docs-maintainers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11022081",
+        "team": "docs-pt-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11022082",
+        "team": "docs-pt-maintainers"
+      },
+      {
+        "role": "approver",
+        "team_id": "14186483",
+        "team": "docs-ro-approvers"
+      },
+      {
+        "role": "triager",
+        "team_id": "13198646",
+        "team": "docs-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "15222017",
+        "team": "ecosystem-explorer-approvers"
+      },
+      {
+        "role": "triager",
+        "team_id": "20472287",
+        "team": "ecosystem-explorer-triagers"
+      },
+      {
+        "role": "governance_committee",
+        "team_id": "11018701",
+        "team": "governance-committee"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018668",
+        "team": "javascript-approvers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11642879",
+        "team": "javascript-contrib-triagers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11018669",
+        "team": "javascript-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018665",
+        "team": "javascript-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018593",
+        "team": "semconv-db-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "17986911",
+        "team": "semconv-js-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "18187670",
+        "team": "shared-workflows-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "18187679",
+        "team": "shared-workflows-maintainers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11022070",
+        "team": "sig-contributor-experience-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11022061",
+        "team": "sig-contributor-experience-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "17666267",
+        "team": "sig-contributor-experience-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "13366170",
+        "team": "social-media-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "20181196",
+        "team": "social-media-maintainers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 3,
+      "first_reviews": 3,
+      "issue_comments": 2,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry.io",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkxODQxMjY3NDg=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 0,
+          "first_reviews": 0,
+          "issue_comments": 1,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "issue_comments": [
+            10791
+          ]
+        }
+      },
+      {
+        "repository": "open-telemetry/opentelemetry-js-contrib",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkyNTU5ODY2NTk=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 0,
+          "first_reviews": 0,
+          "issue_comments": 1,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "issue_comments": [
+            3744
+          ]
+        }
+      },
+      {
+        "repository": "open-telemetry/semantic-conventions",
+        "repository_id": "R_kgDOJhAhOg",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 1,
+          "first_reviews": 1,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "reviews_submitted": [
+            4302
+          ]
+        }
+      },
+      {
+        "repository": "open-telemetry/opentelemetry-announcements",
+        "repository_id": "R_kgDOVPIeZQ",
+        "coverage_status": "verified",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 2,
+          "first_reviews": 2,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "reviews_submitted": [
+            7,
+            8
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "login": "matt-hensley",
+    "user_id": "MDQ6VXNlcjEzMDU2OQ==",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "11018734",
+        "team": "dotnet-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018731",
+        "team": "dotnet-contrib-approvers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018729",
+        "team": "dotnet-contrib-triagers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018720",
+        "team": "dotnet-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "14945326",
+        "team": "semconv-rpc-approvers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 1,
+      "first_reviews": 1,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry-dotnet",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkxODU0NzgwNTk=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 1,
+          "first_reviews": 1,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "reviews_submitted": [
+            8105
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "login": "Mesverrum",
+    "user_id": "MDQ6VXNlcjE3MDQ2MjEx",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "mwimpelberg28",
+    "user_id": "U_kgDOBysT5Q",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "petethepig",
+    "user_id": "MDQ6VXNlcjY2MjYzNg==",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "triager",
+        "team_id": "11018622",
+        "team": "profiling-triagers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "portertech",
+    "user_id": "MDQ6VXNlcjE0OTYzMA==",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "Proximyst",
+    "user_id": "MDQ6VXNlcjE5ODYxMjk5",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "ptodev",
+    "user_id": "MDQ6VXNlcjU4MzQ3ODg=",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "robert-northmind",
+    "user_id": "MDQ6VXNlcjU5MDUzNDM4",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "19357797",
+        "team": "dart-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "19357798",
+        "team": "dart-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "19408986",
+        "team": "dart-triagers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 2,
+      "first_reviews": 1,
+      "issue_comments": 0,
+      "pr_comments": 1,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry-dart",
+        "repository_id": "R_kgDOUPERxA",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 2,
+          "first_reviews": 1,
+          "issue_comments": 0,
+          "pr_comments": 1,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "reviews_submitted": [
+            13,
+            17
+          ],
+          "pr_comments": [
+            13
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "login": "rogercoll",
+    "user_id": "MDQ6VXNlcjMzODczNTMw",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "triager",
+        "team_id": "11018771",
+        "team": "collector-contrib-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11022079",
+        "team": "ebpf-profiler-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018580",
+        "team": "semconv-system-approvers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "sherinabr",
+    "user_id": "U_kgDOC1sYKA",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "skl",
+    "user_id": "MDQ6VXNlcjUxNDM0Mw==",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "12803279",
+        "team": "ebpf-instrumentation-approvers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "tedsuo",
+    "user_id": "MDQ6VXNlcjI0MDc0",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "governance_committee",
+        "team_id": "11018701",
+        "team": "governance-committee"
+      },
+      {
+        "role": "approver",
+        "team_id": "13893301",
+        "team": "proto-approvers"
+      },
+      {
+        "role": "triager",
+        "team_id": "13893299",
+        "team": "proto-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "12739816",
+        "team": "semconv-browser-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "12793752",
+        "team": "semconv-client-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11022077",
+        "team": "sig-developer-experience-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "14080559",
+        "team": "specs-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "13223219",
+        "team": "specs-entities-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018559",
+        "team": "specs-semconv-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018558",
+        "team": "specs-trace-approvers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018557",
+        "team": "specs-triagers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "thampiotr",
+    "user_id": "MDQ6VXNlcjE3MTAxODAy",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "theSuess",
+    "user_id": "MDQ6VXNlcjEzNjQ1NzY=",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "tiffany76",
+    "user_id": "MDQ6VXNlcjMwMzk3OTQ5",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "11018745",
+        "team": "docs-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11018746",
+        "team": "docs-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "13198646",
+        "team": "docs-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "18158026",
+        "team": "sig-end-user-blueprints-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "13366170",
+        "team": "social-media-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "20181196",
+        "team": "social-media-maintainers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 1,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry.io",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkxODQxMjY3NDg=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 1,
+          "prs_merged": 0,
+          "reviews_submitted": 0,
+          "first_reviews": 0,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {}
+      }
+    ]
+  },
+  {
+    "login": "TylerHelmuth",
+    "user_id": "MDQ6VXNlcjEyMzUyOTE5",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "11018782",
+        "team": "collector-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018776",
+        "team": "collector-contrib-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11018781",
+        "team": "collector-contrib-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018771",
+        "team": "collector-contrib-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "12005315",
+        "team": "collector-releases-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "13716864",
+        "team": "collector-releases-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018768",
+        "team": "collector-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018694",
+        "team": "helm-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11018697",
+        "team": "helm-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018693",
+        "team": "helm-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018637",
+        "team": "operator-approvers"
+      },
+      {
+        "role": "triager",
+        "team_id": "12311923",
+        "team": "operator-triagers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018587",
+        "team": "semconv-k8s-approvers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 3,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 6,
+      "first_reviews": 5,
+      "issue_comments": 0,
+      "pr_comments": 1,
+      "review_comments": 2,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry-collector-contrib",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkxOTY0MTQ5MzM=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 3,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 3,
+          "first_reviews": 2,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 2,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "reviews_submitted": [
+            52566,
+            52987
+          ],
+          "review_comments": [
+            52566
+          ]
+        }
+      },
+      {
+        "repository": "open-telemetry/opentelemetry-helm-charts",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkyOTgxMDQwODg=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 3,
+          "first_reviews": 3,
+          "issue_comments": 0,
+          "pr_comments": 1,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "reviews_submitted": [
+            2550,
+            2551,
+            2552
+          ],
+          "pr_comments": [
+            2554
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "login": "x1unix",
+    "user_id": "MDQ6VXNlcjkyMDM1NDg=",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "17495145",
+        "team": "packaging-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "17495149",
+        "team": "packaging-maintainers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 4,
+      "first_reviews": 1,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 4,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry-packaging",
+        "repository_id": "R_kgDOSauXAw",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 4,
+          "first_reviews": 1,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 4,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "review_comments": [
+            183
+          ],
+          "reviews_submitted": [
+            183
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "login": "ymotongpoo",
+    "user_id": "MDQ6VXNlcjE0NTEwNA==",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "11018741",
+        "team": "docs-ja-approvers"
+      },
+      {
+        "role": "maintainer",
+        "team_id": "11018742",
+        "team": "docs-ja-maintainers"
+      },
+      {
+        "role": "triager",
+        "team_id": "13198646",
+        "team": "docs-triagers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 7,
+      "prs_merged": 7,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry.io",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkxODQxMjY3NDg=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 7,
+          "prs_merged": 7,
+          "reviews_submitted": 0,
+          "first_reviews": 0,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {}
+      }
+    ]
+  },
+  {
+    "login": "ywwg",
+    "user_id": "MDQ6VXNlcjg4ODk0MA==",
+    "day": "2026-11-10",
+    "roles": [],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "reviews_submitted": 0,
+      "first_reviews": 0,
+      "issue_comments": 0,
+      "pr_comments": 0,
+      "review_comments": 0,
+      "unclassified_comments": 0
+    },
+    "repositories": []
+  },
+  {
+    "login": "zeitlinger",
+    "user_id": "MDQ6VXNlcjI4MzI2Mjc=",
+    "day": "2026-11-10",
+    "roles": [
+      {
+        "role": "approver",
+        "team_id": "11018688",
+        "team": "java-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "13660236",
+        "team": "java-contrib-approvers"
+      },
+      {
+        "role": "approver",
+        "team_id": "11018680",
+        "team": "java-instrumentation-approvers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018673",
+        "team": "java-instrumentation-triagers"
+      },
+      {
+        "role": "triager",
+        "team_id": "11018671",
+        "team": "java-triagers"
+      }
+    ],
+    "roles_status": "assumed",
+    "roles_observed_at": "2026-11-16T16:50:25.735085Z",
+    "activity_status": "provisional",
+    "counts": {
+      "issues_opened": 0,
+      "prs_opened": 0,
+      "prs_merged": 1,
+      "reviews_submitted": 5,
+      "first_reviews": 2,
+      "issue_comments": 1,
+      "pr_comments": 0,
+      "review_comments": 5,
+      "unclassified_comments": 0
+    },
+    "repositories": [
+      {
+        "repository": "open-telemetry/opentelemetry-java",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkxNzI3NTA3MjM=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 0,
+          "first_reviews": 0,
+          "issue_comments": 1,
+          "pr_comments": 0,
+          "review_comments": 0,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "issue_comments": [
+            7468
+          ]
+        }
+      },
+      {
+        "repository": "open-telemetry/opentelemetry-java-instrumentation",
+        "repository_id": "MDEwOlJlcG9zaXRvcnkyMTA5MzMwODc=",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 0,
+          "reviews_submitted": 1,
+          "first_reviews": 0,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 1,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "review_comments": [
+            17816
+          ],
+          "reviews_submitted": [
+            17816
+          ]
+        }
+      },
+      {
+        "repository": "open-telemetry/opentelemetry-ebpf-instrumentation",
+        "repository_id": "R_kgDOOa4Yng",
+        "coverage_status": "provisional",
+        "counts": {
+          "issues_opened": 0,
+          "prs_opened": 0,
+          "prs_merged": 1,
+          "reviews_submitted": 4,
+          "first_reviews": 2,
+          "issue_comments": 0,
+          "pr_comments": 0,
+          "review_comments": 4,
+          "unclassified_comments": 0
+        },
+        "targets": {
+          "review_comments": [
+            3922,
+            4156,
+            4181
+          ],
+          "reviews_submitted": [
+            3922,
+            4156,
+            4181
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,1109 @@
+{
+  "format": "grafana-otel-user-days",
+  "schema_version": 3,
+  "generated_at": "2026-11-17T05:29:37.926807Z",
+  "company": "grafana",
+  "range": {
+    "start": "2026-09-27",
+    "end": "2026-11-17"
+  },
+  "users": 48,
+  "user_days": 2448,
+  "observed_active_user_days": 801,
+  "source_observed_at": "2026-11-17T05:29:29.950620Z",
+  "source_snapshot": {
+    "envelopes": 5664,
+    "file_list_fingerprint": "32bea0373ae87c5c410324fbd006aacb959ea3a960f5b58d42b761267a3748b2"
+  },
+  "affiliation_observed_at": "2026-11-17T04:36:26.075253Z",
+  "scripts_revision": "unversioned-local",
+  "coverage": {
+    "R_kgDOLFwNpg": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkzMDY3NDc3NDk=": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOS-fRRg": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOPB3iqw": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOPemsig": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkzOTUzNjc0NjY=": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkyODM1NjEwMjk=": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDONns0sw": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkxODQ2MjA3MzI=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOLYUNJw": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkyMDE1ODA5NzM=": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkyNjg0MTk4MDE=": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOSvZ1yQ": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOMzlInA": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOMljbxA": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOUkSAaw": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "unavailable_parents": []
+    },
+    "R_kgDOGUlj2Q": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOIDBY0g": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOGUv2zA": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOJ-N9DQ": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOVPIeZQ": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "unavailable_parents": []
+    },
+    "R_kgDOTGPyKw": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOPtwFMw": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkxODU4NjExNzM=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkzMzM1OTIwNDI=": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkxOTY0MTQ5MzM=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnk0MDAyNTM2NzY=": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOJYhG6w": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkxOTMxNTYzOTk=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkzMTM0MjE1NDI=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOUPERxA": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOHPalqA": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkxODU0NzgwNTk=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkyNjE1NzM1NTU=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkyNzk3MjU3NDg=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOOa4Yng": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOLuc6Nw": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOQ-YRaQ": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkxODU2ODY3NDU=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkyMjA2OTgyMTI=": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkzNTk1NDA3OTk=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOPtZQwg": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOTk9pHw": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkxODcwODYxNjE=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": [
+        {
+          "number": 9002,
+          "status": 404
+        },
+        {
+          "number": 9056,
+          "status": 404
+        }
+      ]
+    },
+    "MDEwOlJlcG9zaXRvcnkzODY3MTI1Mjg=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOUFGAQQ": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDONpzSSw": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkyNDIyMDIxNjY=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOHwJrxQ": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkyMTk1MTg4MzE=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkyOTgxMDQwODg=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOOy2pyA": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkxNzI3NTA3MjM=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": {
+        "start": "2026-11-15",
+        "end": "2026-11-16"
+      },
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkyODgyOTQ2NDg=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOGXdHeQ": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkyMTA5MzMwODc=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkxODU5MDEwMjM=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkzMjk2NjU2NDM=": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkyNTU5ODY2NTk=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOQ1ux3A": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkzMTk0NTk2NTE=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkzMzIwNTU0MTg=": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkzODg1MzAxMzQ=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOJecjmg": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkyMjg5MjU4NzA=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOSauXAw": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkyMTEzNzYzNzI=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkzNzc4ODMzMTk=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOQV2M4g": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOIANkCQ": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkxODc5NDMzNDE=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkzMTQzMzcxNzY=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOGImLGA": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOJ2GaQQ": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkxODU0Nzg5MjY=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": [
+        {
+          "number": 5797,
+          "status": 404
+        }
+      ]
+    },
+    "MDEwOlJlcG9zaXRvcnkyMjA1MjQ3NDM=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOSbspPw": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkxODkwNzA2MzM=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOGvEu7g": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOSvIlog": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkyMjEwNTg1NzU=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": [
+        {
+          "number": 3815,
+          "status": 404
+        }
+      ]
+    },
+    "R_kgDOKrbwrQ": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOHgJJHg": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkxODQ0NjM4OTE=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOGJRJ7g": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkyNDE1NTg3MTM=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOPl9c_A": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOPh92Vg": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOQEg-Yg": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOREVYAw": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOTttzLg": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDORmfAkQ": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkxODQxMjY3NDg=": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOKEb9GA": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOIBoLRg": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkxOTI5NTg3OTQ=": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "MDEwOlJlcG9zaXRvcnkzMzUxMzMyNTA=": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOJhAhOg": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOUFRZLQ": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOTuzK5Q": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOSUeMrA": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOKGHFdQ": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOSuPEfQ": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOTENycw": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOMYn6jQ": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOMdQJwA": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOLyUNsw": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOLyMj3g": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOPcJ83g": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOOZngqA": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOJ8_HoQ": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOKFqWsQ": {
+      "scan": {
+        "start": "2026-09-20",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    },
+    "R_kgDOLPU8Hg": {
+      "scan": {
+        "start": "2026-09-27",
+        "end": "2026-11-16"
+      },
+      "verified": null,
+      "unavailable_parents": []
+    }
+  },
+  "inventory": [
+    "R_kgDOLFwNpg",
+    "MDEwOlJlcG9zaXRvcnkzMDY3NDc3NDk=",
+    "R_kgDOS-fRRg",
+    "R_kgDOPB3iqw",
+    "R_kgDOPemsig",
+    "MDEwOlJlcG9zaXRvcnkzOTUzNjc0NjY=",
+    "MDEwOlJlcG9zaXRvcnkyODM1NjEwMjk=",
+    "R_kgDONns0sw",
+    "MDEwOlJlcG9zaXRvcnkxODQ2MjA3MzI=",
+    "R_kgDOLYUNJw",
+    "MDEwOlJlcG9zaXRvcnkyMDE1ODA5NzM=",
+    "MDEwOlJlcG9zaXRvcnkyNjg0MTk4MDE=",
+    "R_kgDOSvZ1yQ",
+    "R_kgDOMzlInA",
+    "R_kgDOMljbxA",
+    "R_kgDOUkSAaw",
+    "R_kgDOGUlj2Q",
+    "R_kgDOIDBY0g",
+    "R_kgDOGUv2zA",
+    "R_kgDOJ-N9DQ",
+    "R_kgDOVPIeZQ",
+    "R_kgDOTGPyKw",
+    "R_kgDOPtwFMw",
+    "MDEwOlJlcG9zaXRvcnkxODU4NjExNzM=",
+    "MDEwOlJlcG9zaXRvcnkzMzM1OTIwNDI=",
+    "MDEwOlJlcG9zaXRvcnkxOTY0MTQ5MzM=",
+    "MDEwOlJlcG9zaXRvcnk0MDAyNTM2NzY=",
+    "R_kgDOJYhG6w",
+    "MDEwOlJlcG9zaXRvcnkxOTMxNTYzOTk=",
+    "MDEwOlJlcG9zaXRvcnkzMTM0MjE1NDI=",
+    "R_kgDOUPERxA",
+    "R_kgDOHPalqA",
+    "MDEwOlJlcG9zaXRvcnkxODU0NzgwNTk=",
+    "MDEwOlJlcG9zaXRvcnkyNjE1NzM1NTU=",
+    "MDEwOlJlcG9zaXRvcnkyNzk3MjU3NDg=",
+    "R_kgDOOa4Yng",
+    "R_kgDOLuc6Nw",
+    "R_kgDOQ-YRaQ",
+    "MDEwOlJlcG9zaXRvcnkxODU2ODY3NDU=",
+    "MDEwOlJlcG9zaXRvcnkyMjA2OTgyMTI=",
+    "MDEwOlJlcG9zaXRvcnkzNTk1NDA3OTk=",
+    "R_kgDOPtZQwg",
+    "R_kgDOTk9pHw",
+    "MDEwOlJlcG9zaXRvcnkxODcwODYxNjE=",
+    "MDEwOlJlcG9zaXRvcnkzODY3MTI1Mjg=",
+    "R_kgDOUFGAQQ",
+    "R_kgDONpzSSw",
+    "MDEwOlJlcG9zaXRvcnkyNDIyMDIxNjY=",
+    "R_kgDOHwJrxQ",
+    "MDEwOlJlcG9zaXRvcnkyMTk1MTg4MzE=",
+    "MDEwOlJlcG9zaXRvcnkyOTgxMDQwODg=",
+    "R_kgDOOy2pyA",
+    "MDEwOlJlcG9zaXRvcnkxNzI3NTA3MjM=",
+    "MDEwOlJlcG9zaXRvcnkyODgyOTQ2NDg=",
+    "R_kgDOGXdHeQ",
+    "MDEwOlJlcG9zaXRvcnkyMTA5MzMwODc=",
+    "MDEwOlJlcG9zaXRvcnkxODU5MDEwMjM=",
+    "MDEwOlJlcG9zaXRvcnkzMjk2NjU2NDM=",
+    "MDEwOlJlcG9zaXRvcnkyNTU5ODY2NTk=",
+    "R_kgDOQ1ux3A",
+    "MDEwOlJlcG9zaXRvcnkzMTk0NTk2NTE=",
+    "MDEwOlJlcG9zaXRvcnkzMzIwNTU0MTg=",
+    "MDEwOlJlcG9zaXRvcnkzODg1MzAxMzQ=",
+    "R_kgDOJecjmg",
+    "MDEwOlJlcG9zaXRvcnkyMjg5MjU4NzA=",
+    "R_kgDOSauXAw",
+    "MDEwOlJlcG9zaXRvcnkyMTEzNzYzNzI=",
+    "MDEwOlJlcG9zaXRvcnkzNzc4ODMzMTk=",
+    "R_kgDOQV2M4g",
+    "R_kgDOIANkCQ",
+    "MDEwOlJlcG9zaXRvcnkxODc5NDMzNDE=",
+    "MDEwOlJlcG9zaXRvcnkzMTQzMzcxNzY=",
+    "R_kgDOGImLGA",
+    "R_kgDOJ2GaQQ",
+    "MDEwOlJlcG9zaXRvcnkxODU0Nzg5MjY=",
+    "MDEwOlJlcG9zaXRvcnkyMjA1MjQ3NDM=",
+    "R_kgDOSbspPw",
+    "MDEwOlJlcG9zaXRvcnkxODkwNzA2MzM=",
+    "R_kgDOGvEu7g",
+    "R_kgDOSvIlog",
+    "MDEwOlJlcG9zaXRvcnkyMjEwNTg1NzU=",
+    "R_kgDOKrbwrQ",
+    "R_kgDOHgJJHg",
+    "MDEwOlJlcG9zaXRvcnkxODQ0NjM4OTE=",
+    "R_kgDOGJRJ7g",
+    "MDEwOlJlcG9zaXRvcnkyNDE1NTg3MTM=",
+    "R_kgDOPl9c_A",
+    "R_kgDOPh92Vg",
+    "R_kgDOQEg-Yg",
+    "R_kgDOREVYAw",
+    "R_kgDOTttzLg",
+    "R_kgDORmfAkQ",
+    "MDEwOlJlcG9zaXRvcnkxODQxMjY3NDg=",
+    "R_kgDOKEb9GA",
+    "R_kgDOIBoLRg",
+    "MDEwOlJlcG9zaXRvcnkxOTI5NTg3OTQ=",
+    "MDEwOlJlcG9zaXRvcnkzMzUxMzMyNTA=",
+    "R_kgDOJhAhOg",
+    "R_kgDOUFRZLQ",
+    "R_kgDOTuzK5Q",
+    "R_kgDOSUeMrA",
+    "R_kgDOKGHFdQ",
+    "R_kgDOSuPEfQ",
+    "R_kgDOTENycw",
+    "R_kgDOMYn6jQ",
+    "R_kgDOMdQJwA",
+    "R_kgDOLyUNsw",
+    "R_kgDOLyMj3g",
+    "R_kgDOPcJ83g",
+    "R_kgDOOZngqA",
+    "R_kgDOJ8_HoQ",
+    "R_kgDOKFqWsQ",
+    "R_kgDOLPU8Hg"
+  ],
+  "review_accuracy": {
+    "policy": "earliest-observed",
+    "discovery_complete": false
+  },
+  "unresolved_source_parents": {
+    "comments": 2195,
+    "reviews": 0
+  },
+  "role_policy": "first-snapshot-backward",
+  "role_observations": [
+    "2026-11-16T16:50:25.735085Z"
+  ],
+  "role_summary": {
+    "first_observed_day": "2026-11-16",
+    "users_with_roles": 28,
+    "user_days_with_roles": 1428,
+    "unknown_user_days": 0,
+    "assumed_user_days": 2400
+  },
+  "metrics": [
+    "issues_opened",
+    "prs_opened",
+    "prs_merged",
+    "reviews_submitted",
+    "first_reviews",
+    "issue_comments",
+    "pr_comments",
+    "review_comments",
+    "unclassified_comments"
+  ],
+  "limitations": [
+    "Scanned frontiers are provisional until full verification; unseen records can change any metric.",
+    "Zero counts on provisional or unscanned days do not establish inactivity.",
+    "First reviews are computed across all observed history before affiliation/range filtering; earlier history can move them to another day.",
+    "Roles cover recognized accessible teams only. The first completed snapshot is assumed backward; subsequent observations apply from their observation day and are carried forward until replaced. Roles are unknown only when no completed snapshot exists.",
+    "Daily rows include quiet eligible days only for people with an eligible contribution or role somewhere in this export range.",
+    "Private affiliations are attribution inputs, not verified employment history. No affiliation roster or intervals are exported.",
+    "Raw-file and progress snapshots are read separately while collection may continue. File-list fingerprints are not content authenticity proofs.",
+    "Rebuilds replace the whole selected interval, including retractions and earlier first-review dates."
+  ]
+}

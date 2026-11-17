@@ -1,0 +1,10 @@
+**
+!Dockerfile
+!grafana_stats/
+!grafana_stats/*.py
+!tests/
+!tests/*.py
+!scripts/
+!scripts/*.sh
+**/__pycache__/
+**/*.pyc

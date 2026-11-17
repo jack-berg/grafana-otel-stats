@@ -1,0 +1,20 @@
+name: Test
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.13']
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Build image
+        env:
+          PYTHON_VERSION: ${{ matrix.python }}
+        run: docker build --build-arg "PYTHON_VERSION=$PYTHON_VERSION" --build-arg "SCRIPTS_REVISION=$GITHUB_SHA" -t grafana-otel-stats .
+      - run: docker run --rm --network none --entrypoint python3 grafana-otel-stats -W error::ResourceWarning -m unittest discover -s /app/tests -v
+      - run: docker run --rm --network none grafana-otel-stats --help
